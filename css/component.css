@@ -59,7 +59,7 @@
    height: 30px;
    position: fixed;
    background: rgba(52, 73, 94,.5);
-   width: 450px;
+   width: 100%;
    padding: 1px;
 	}
 }
@@ -88,6 +88,7 @@ ul.nav {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
+	width: 100%
 }
 
 #nav{

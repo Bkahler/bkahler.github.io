@@ -10,6 +10,11 @@
 .content{
 	color:white;
 }
+
+#photo{
+	margin-right: 10px
+
+}
 .navLink{
 	color:white;
 	text-decoration: none;
@@ -379,7 +384,7 @@ svg#bigTriangleColor {
 }
 
 /* Zig Zag (3d up and simple down) */
-.ss-style-zigzag::before,
+/*.ss-style-zigzag::before,
 .ss-style-zigzag::after {
     right: 0;
     left: 0;
@@ -429,10 +434,10 @@ svg#bigTriangleColor {
 
 .ss-style-roundedges::after {
 	right: -100px;
-}
+}*/
 
 /* Slit */
-.ss-style-slit {
+/*.ss-style-slit {
 	padding-top: 5em;
 }
 
@@ -459,17 +464,17 @@ svg#bigTriangleColor {
 	-webkit-transform: skewX(-10deg);
 	transform: skewX(-10deg);
 	box-shadow: 10px -20px #3192d3;
-}
+}*/
 
 /* Big half circle */
-#bigHalfCircle path {
+/*#bigHalfCircle path {
 	fill: #3498db;
 	stroke: #3498db;
-}
+}*/
 
 /* Big triangle with shadow */
 
-#trianglePath1 {
+/*#trianglePath1 {
 	fill: #3498db;
 	stroke: #3498db;
 }
@@ -478,9 +483,9 @@ svg#bigTriangleColor {
 	fill: #2072a7;
 	stroke: #2072a7;
 }
-
+*/
 /* Inclined Zig Zag */
-.ss-style-inczigzag::before,
+/*.ss-style-inczigzag::before,
 .ss-style-inczigzag::after {
 	left: 0;
 	width: 100%;
@@ -498,10 +503,10 @@ svg#bigTriangleColor {
 	bottom: 0;
 	background-image: -webkit-gradient(linear, 0 0, 10% 100%, color-stop(0.5, #3498db), color-stop(0.5, #2980b9));
 	background-image: linear-gradient(15deg, #2980b9 50%, #3498db 50%);
-}
+}*/
 
 /* Castle */
-.ss-style-castle::before {
+/*.ss-style-castle::before {
 	left: 0;
 	width: 100%;
 	height: 50px;
@@ -509,10 +514,10 @@ svg#bigTriangleColor {
 	top: 0;
 	background-image: -webkit-linear-gradient(40deg, #3498db 50%, #2980b9 50%);
 	background-image: linear-gradient(40deg, #3498db 50%, #2980b9 50%);
-}
+}*/
 
 /* Alternative slit with inner shadow */
-#slitPath1 {
+/*#slitPath1 {
 	fill: #3498db;
 	stroke: red;
 	stroke-width: 0;
@@ -521,9 +526,9 @@ svg#bigTriangleColor {
 #slitPath2, #slitPath3 {
 	fill: #2072a7;
 }
-
+*/
 /* Folded corner */
-.ss-style-foldedcorner::before,
+/*.ss-style-foldedcorner::before,
 .ss-style-foldedcorner::after {
 	bottom: 0;
 	width: 100px;
@@ -540,10 +545,10 @@ svg#bigTriangleColor {
 	right: 100px;
 	background-image: -webkit-linear-gradient(top left, transparent 50%, #236fa1 50%);
 	background-image: linear-gradient(315deg, #236fa1 50%, transparent 50%);
-}
+}*/
 
 /* Dots */
-.ss-style-dots::before {
+/*.ss-style-dots::before {
 	bottom: 20px;
 	width: 14px;
 	height: 14px;
@@ -553,10 +558,10 @@ svg#bigTriangleColor {
 	transform: translateX(-50%);
 	background: #2072a7;
 	box-shadow: 30px 0 #2072a7, -30px 0 #2072a7;
-}
+}*/
 
 /* Double Line */
-.ss-style-doubleline::before {
+/*.ss-style-doubleline::before {
 	bottom: 30px;
 	width: 140px;
 	height: 2px;
@@ -565,10 +570,10 @@ svg#bigTriangleColor {
 	transform: translateX(-50%);
 	background: #2072a7;
 	box-shadow: 0 30px 0 #2072a7;
-}
+}*/
 
 /* Cross */
-.ss-style-cross {
+/*.ss-style-cross {
 	padding-bottom: 15em;
 }
 
@@ -592,7 +597,7 @@ svg#bigTriangleColor {
 	-webkit-transform: translateX(-50%) rotate(-45deg);
 	transform: translateX(-50%) rotate(-45deg);
 }
-
+*/
 
 
 

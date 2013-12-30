@@ -15,23 +15,55 @@
 	margin-right: 10px
 
 }
+
+#section4{
+	padding-left: 10px;
+
+}
+
 .navLink{
 	color:white;
 	text-decoration: none;
 	padding: 10px;
 }
 
+@media (max-width: 500px){
+	.navLink{
+		color:white;
+		text-decoration: none;
+		padding: 10px;
+		font-size: 12px;
+	}
+
+	#navWrap {
+   height: 30px;
+   position: fixed;
+   background: rgba(52, 73, 94,.5);
+   width: 370px;
+   padding: 1px;
+	}
+}
+
 .githublink{
 	color: white;
 }
 
-#navWrap {
+@media (min-width: 501px){
+	.navLink{
+		color:white;
+		text-decoration: none;
+		padding: 10px;
+	}
+
+	#navWrap {
    height: 30px;
    position: fixed;
    background: rgba(52, 73, 94,.5);
-   width: 360px;
+   width: 450px;
    padding: 1px;
+	}
 }
+
 
 #projects{
 	padding-top: 20px
@@ -52,7 +84,7 @@ p{
 margin-top: -50px
 }
 
-.nav {
+ul.nav {
 	display: inline;
 	text-decoration: none;
 	list-style-type: none;
@@ -84,7 +116,7 @@ header{
 
 li{
 	float: left;
-	padding: 5px;
+	padding: 3px;
 	text-align: center;
 }
 

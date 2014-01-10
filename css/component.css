@@ -84,6 +84,11 @@ p{
 margin-top: -50px
 }
 
+h1{
+	font-size: 80px !important;
+
+}
+
 ul.nav {
 	display: inline;
 	text-decoration: none;

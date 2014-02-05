@@ -184,7 +184,9 @@ section p {
 	display: inline-block;
 	vertical-align: top;
 }
-
+.column p{
+	color: white;
+}
 .icon {
 	display: block;
 	width: 2em;
